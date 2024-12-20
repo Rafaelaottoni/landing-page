@@ -1,0 +1,80 @@
+body{
+    background-image: url(../images/bg-desktop.svg);
+    background-color:  hsl(257, 40%, 49%);
+    background: cover;
+}
+.logo{
+    margin: 40px 50px;
+}
+.ilustracao{
+    position: relative;
+    margin: 20px 50px;
+}
+ .conteudo{
+    display: flex;
+    align-items: center;
+    }
+    .conteudo .ilustracao{
+        height: auto;
+        margin-right: 30px;
+    }
+    .conteudo .texto{
+        color: #fff;
+        flex-direction: column;
+        font-family: poppins, sans-serif;
+        margin-bottom:  200px;
+}
+.conteudo .texto h1{
+    padding-bottom: 25px;
+    font-size: 40px;
+}
+.conteudo .texto p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 170px;
+    margin-bottom: 30px;
+}
+.conteudo a{
+    display: flex;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 15px 70px;
+    font-size: 15px;
+    color: hsl(257, 40%, 49%);
+    border: none;
+    text-decoration: none;
+}
+.conteudo a:hover{
+    background-color:  hsl(300, 69%, 71%);
+    transition: 0.3s;
+    color: #fff;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.footer .social i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: 3px solid;
+    border-radius: 50%;
+}
+.footer .social a{
+    display: flex;
+    margin: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer .social a:hover{
+    color: hsl(300, 69%, 71%);
+    transition: 0.3s;
+}

@@ -1,0 +1,86 @@
+@media(max-width:800px){
+    .logo{
+        max-width: 180px;
+        margin-left: 45px;
+        margin-right: 20px;
+}
+    .conteudo{
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+    .ilustracao{
+        width: 90%;
+        margin-bottom: 60px;
+}
+    .texto h1{
+        font-size: 35px;
+        padding: 0 !important;
+        margin-bottom: 50px;
+    }
+    .texto p{
+        margin:0 !important;
+        font-size: 26px;
+    }
+     .texto a{
+        font-size: 16px;
+        display: inline-block;
+        text-align: center;
+        margin-top: 50px;
+        position: static;
+    }
+    .social{
+        position: relative;
+        top: -40px;
+        gap: 20px;
+    }
+    
+}
+@media(max-width:426px){
+    .logo{
+        max-width: 130px;
+        margin-left: 50px;
+    }
+    .ilustracao{
+        width: 80%;
+        margin-bottom: 80px;
+}
+    .conteudo{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+    .texto h1{
+        padding: 0 !important;
+        margin-bottom: 50px;
+        font-size: 30px !important;
+    }
+    .texto p{
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    .texto a{
+        font-size: 20px !important;
+        display: inline-block;
+        text-align: center;
+        margin-top: 40px;
+        position: static;
+    }
+    body .footer{
+        position: relative;
+        margin-top: 20px;
+        text-align: center;
+    }
+    body .footer .social{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .footer .social i{
+        font-size: 20px;
+    }
+}
